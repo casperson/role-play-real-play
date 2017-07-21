@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4EE48B81F21BDD500E50BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48B71F21BDD500E50BA0 /* AppDelegate.swift */; };
+		F4EE48BD1F21BDD500E50BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EE48BB1F21BDD500E50BA0 /* Main.storyboard */; };
+		F4EE48C01F21BDD500E50BA0 /* Real_Play.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48BE1F21BDD500E50BA0 /* Real_Play.xcdatamodeld */; };
+		F4EE48C21F21BDD500E50BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EE48C11F21BDD500E50BA0 /* Assets.xcassets */; };
+		F4EE48C51F21BDD500E50BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EE48C31F21BDD500E50BA0 /* LaunchScreen.storyboard */; };
+		F4EE48D01F21BDD500E50BA0 /* Real_PlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48CF1F21BDD500E50BA0 /* Real_PlayTests.swift */; };
+		F4EE48DB1F21BDD500E50BA0 /* Real_PlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48DA1F21BDD500E50BA0 /* Real_PlayUITests.swift */; };
+		F4EE48EB1F21C01D00E50BA0 /* GameplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48EA1F21C01D00E50BA0 /* GameplayViewController.swift */; };
+		F4EE48ED1F21C05100E50BA0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48EC1F21C05100E50BA0 /* StartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4EE48CC1F21BDD500E50BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4EE48AC1F21BDD500E50BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4EE48B31F21BDD500E50BA0;
+			remoteInfo = "Real Play";
+		};
+		F4EE48D71F21BDD500E50BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4EE48AC1F21BDD500E50BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4EE48B31F21BDD500E50BA0;
+			remoteInfo = "Real Play";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4EE48B41F21BDD500E50BA0 /* Real Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EE48B71F21BDD500E50BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4EE48BC1F21BDD500E50BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4EE48BF1F21BDD500E50BA0 /* Real_Play.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Real_Play.xcdatamodel; sourceTree = "<group>"; };
+		F4EE48C11F21BDD500E50BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4EE48C41F21BDD500E50BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4EE48C61F21BDD500E50BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EE48CB1F21BDD500E50BA0 /* Real PlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real PlayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EE48CF1F21BDD500E50BA0 /* Real_PlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_PlayTests.swift; sourceTree = "<group>"; };
+		F4EE48D11F21BDD500E50BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EE48D61F21BDD500E50BA0 /* Real PlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real PlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EE48DA1F21BDD500E50BA0 /* Real_PlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_PlayUITests.swift; sourceTree = "<group>"; };
+		F4EE48DC1F21BDD500E50BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EE48EA1F21C01D00E50BA0 /* GameplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayViewController.swift; sourceTree = "<group>"; };
+		F4EE48EC1F21C05100E50BA0 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4EE48B11F21BDD500E50BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EE48C81F21BDD500E50BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EE48D31F21BDD500E50BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4EE48AB1F21BDD500E50BA0 = {
+			isa = PBXGroup;
+			children = (
+				F4EE48B61F21BDD500E50BA0 /* Real Play */,
+				F4EE48CE1F21BDD500E50BA0 /* Real PlayTests */,
+				F4EE48D91F21BDD500E50BA0 /* Real PlayUITests */,
+				F4EE48B51F21BDD500E50BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4EE48B51F21BDD500E50BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE48B41F21BDD500E50BA0 /* Real Play.app */,
+				F4EE48CB1F21BDD500E50BA0 /* Real PlayTests.xctest */,
+				F4EE48D61F21BDD500E50BA0 /* Real PlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4EE48B61F21BDD500E50BA0 /* Real Play */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE48B71F21BDD500E50BA0 /* AppDelegate.swift */,
+				F4EE48BB1F21BDD500E50BA0 /* Main.storyboard */,
+				F4EE48C11F21BDD500E50BA0 /* Assets.xcassets */,
+				F4EE48C31F21BDD500E50BA0 /* LaunchScreen.storyboard */,
+				F4EE48C61F21BDD500E50BA0 /* Info.plist */,
+				F4EE48BE1F21BDD500E50BA0 /* Real_Play.xcdatamodeld */,
+				F4EE48EA1F21C01D00E50BA0 /* GameplayViewController.swift */,
+				F4EE48EC1F21C05100E50BA0 /* StartViewController.swift */,
+			);
+			path = "Real Play";
+			sourceTree = "<group>";
+		};
+		F4EE48CE1F21BDD500E50BA0 /* Real PlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE48CF1F21BDD500E50BA0 /* Real_PlayTests.swift */,
+				F4EE48D11F21BDD500E50BA0 /* Info.plist */,
+			);
+			path = "Real PlayTests";
+			sourceTree = "<group>";
+		};
+		F4EE48D91F21BDD500E50BA0 /* Real PlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE48DA1F21BDD500E50BA0 /* Real_PlayUITests.swift */,
+				F4EE48DC1F21BDD500E50BA0 /* Info.plist */,
+			);
+			path = "Real PlayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4EE48B31F21BDD500E50BA0 /* Real Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EE48DF1F21BDD500E50BA0 /* Build configuration list for PBXNativeTarget "Real Play" */;
+			buildPhases = (
+				F4EE48B01F21BDD500E50BA0 /* Sources */,
+				F4EE48B11F21BDD500E50BA0 /* Frameworks */,
+				F4EE48B21F21BDD500E50BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Real Play";
+			productName = "Real Play";
+			productReference = F4EE48B41F21BDD500E50BA0 /* Real Play.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4EE48CA1F21BDD500E50BA0 /* Real PlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EE48E21F21BDD500E50BA0 /* Build configuration list for PBXNativeTarget "Real PlayTests" */;
+			buildPhases = (
+				F4EE48C71F21BDD500E50BA0 /* Sources */,
+				F4EE48C81F21BDD500E50BA0 /* Frameworks */,
+				F4EE48C91F21BDD500E50BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4EE48CD1F21BDD500E50BA0 /* PBXTargetDependency */,
+			);
+			name = "Real PlayTests";
+			productName = "Real PlayTests";
+			productReference = F4EE48CB1F21BDD500E50BA0 /* Real PlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4EE48D51F21BDD500E50BA0 /* Real PlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EE48E51F21BDD500E50BA0 /* Build configuration list for PBXNativeTarget "Real PlayUITests" */;
+			buildPhases = (
+				F4EE48D21F21BDD500E50BA0 /* Sources */,
+				F4EE48D31F21BDD500E50BA0 /* Frameworks */,
+				F4EE48D41F21BDD500E50BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4EE48D81F21BDD500E50BA0 /* PBXTargetDependency */,
+			);
+			name = "Real PlayUITests";
+			productName = "Real PlayUITests";
+			productReference = F4EE48D61F21BDD500E50BA0 /* Real PlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4EE48AC1F21BDD500E50BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Braden Casperson";
+				TargetAttributes = {
+					F4EE48B31F21BDD500E50BA0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = TMD6XCU7B7;
+						ProvisioningStyle = Automatic;
+					};
+					F4EE48CA1F21BDD500E50BA0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = TMD6XCU7B7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4EE48B31F21BDD500E50BA0;
+					};
+					F4EE48D51F21BDD500E50BA0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = TMD6XCU7B7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4EE48B31F21BDD500E50BA0;
+					};
+				};
+			};
+			buildConfigurationList = F4EE48AF1F21BDD500E50BA0 /* Build configuration list for PBXProject "Real Play" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4EE48AB1F21BDD500E50BA0;
+			productRefGroup = F4EE48B51F21BDD500E50BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4EE48B31F21BDD500E50BA0 /* Real Play */,
+				F4EE48CA1F21BDD500E50BA0 /* Real PlayTests */,
+				F4EE48D51F21BDD500E50BA0 /* Real PlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4EE48B21F21BDD500E50BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EE48C51F21BDD500E50BA0 /* LaunchScreen.storyboard in Resources */,
+				F4EE48C21F21BDD500E50BA0 /* Assets.xcassets in Resources */,
+				F4EE48BD1F21BDD500E50BA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EE48C91F21BDD500E50BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EE48D41F21BDD500E50BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4EE48B01F21BDD500E50BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EE48C01F21BDD500E50BA0 /* Real_Play.xcdatamodeld in Sources */,
+				F4EE48ED1F21C05100E50BA0 /* StartViewController.swift in Sources */,
+				F4EE48EB1F21C01D00E50BA0 /* GameplayViewController.swift in Sources */,
+				F4EE48B81F21BDD500E50BA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EE48C71F21BDD500E50BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EE48D01F21BDD500E50BA0 /* Real_PlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EE48D21F21BDD500E50BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EE48DB1F21BDD500E50BA0 /* Real_PlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4EE48CD1F21BDD500E50BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4EE48B31F21BDD500E50BA0 /* Real Play */;
+			targetProxy = F4EE48CC1F21BDD500E50BA0 /* PBXContainerItemProxy */;
+		};
+		F4EE48D81F21BDD500E50BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4EE48B31F21BDD500E50BA0 /* Real Play */;
+			targetProxy = F4EE48D71F21BDD500E50BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4EE48BB1F21BDD500E50BA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4EE48BC1F21BDD500E50BA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4EE48C31F21BDD500E50BA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4EE48C41F21BDD500E50BA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4EE48DD1F21BDD500E50BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4EE48DE1F21BDD500E50BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4EE48E01F21BDD500E50BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TMD6XCU7B7;
+				INFOPLIST_FILE = "Real Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BC.Real-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4EE48E11F21BDD500E50BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TMD6XCU7B7;
+				INFOPLIST_FILE = "Real Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BC.Real-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F4EE48E31F21BDD500E50BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TMD6XCU7B7;
+				INFOPLIST_FILE = "Real PlayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BC.Real-PlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Play.app/Real Play";
+			};
+			name = Debug;
+		};
+		F4EE48E41F21BDD500E50BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TMD6XCU7B7;
+				INFOPLIST_FILE = "Real PlayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BC.Real-PlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Play.app/Real Play";
+			};
+			name = Release;
+		};
+		F4EE48E61F21BDD500E50BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TMD6XCU7B7;
+				INFOPLIST_FILE = "Real PlayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BC.Real-PlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Real Play";
+			};
+			name = Debug;
+		};
+		F4EE48E71F21BDD500E50BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TMD6XCU7B7;
+				INFOPLIST_FILE = "Real PlayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BC.Real-PlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Real Play";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4EE48AF1F21BDD500E50BA0 /* Build configuration list for PBXProject "Real Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EE48DD1F21BDD500E50BA0 /* Debug */,
+				F4EE48DE1F21BDD500E50BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4EE48DF1F21BDD500E50BA0 /* Build configuration list for PBXNativeTarget "Real Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EE48E01F21BDD500E50BA0 /* Debug */,
+				F4EE48E11F21BDD500E50BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4EE48E21F21BDD500E50BA0 /* Build configuration list for PBXNativeTarget "Real PlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EE48E31F21BDD500E50BA0 /* Debug */,
+				F4EE48E41F21BDD500E50BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4EE48E51F21BDD500E50BA0 /* Build configuration list for PBXNativeTarget "Real PlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EE48E61F21BDD500E50BA0 /* Debug */,
+				F4EE48E71F21BDD500E50BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4EE48BE1F21BDD500E50BA0 /* Real_Play.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4EE48BF1F21BDD500E50BA0 /* Real_Play.xcdatamodel */,
+			);
+			currentVersion = F4EE48BF1F21BDD500E50BA0 /* Real_Play.xcdatamodel */;
+			path = Real_Play.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4EE48AC1F21BDD500E50BA0 /* Project object */;
+}
