@@ -1,0 +1,415 @@
+{
+    "scenarios": {
+        "people": [
+            {
+                "person": "44 y/o pilot"
+            },
+            {
+                "person": "39 y/o laid-off father"
+            },
+            {
+                "person": "42 y/o father of seven"
+            },
+            {
+                "person": "24 y/o single mother"
+            },
+            {
+                "person": "33 y/o baseball player"
+            },
+            {
+                "person": "43 y/o inactive woman"
+            },
+            {
+                "person": "53 y/o inactive ex-con"
+            },
+            {
+                "person": "66 y/o atheist"
+            },
+            {
+                "person": "76 y/o Baptist minister"
+            },
+            {
+                "person": "30 y/o nun"
+            },
+            {
+                "person": "25 y/o women's kickboxer"
+            },
+            {
+                "person": "49 y/o janitor"
+            },
+            {
+                "person": "17 y/o quarterback"
+            },
+            {
+                "person": "18 y/o cheerleader"
+            },
+            {
+                "person": "37 y/o teacher"
+            },
+            {
+                "person": "28 y/o stewardess"
+            },
+            {
+                "person": "31 y/o nurse"
+            },
+            {
+                "person": "25 y/o soldier"
+            },
+            {
+                "person": "91 y/o wife"
+            },
+            {
+                "person": "16 y/o girl"
+            },
+            {
+                "person": "16 y/o boy"
+            },
+            {
+                "person": "18 y/o missionary"
+            },
+            {
+                "person": "19 y/o missionary"
+            },
+            {
+                "person": "24 y/o graduate student"
+            },
+            {
+                "person": "36 y/o scientist"
+            },
+            {
+                "person": "29 y/o software engineer"
+            },
+            {
+                "person": "41 y/o farmer"
+            },
+            {
+                "person": "34 y/o mother"
+            },
+            {
+                "person": "81 y/o retired CEO"
+            },
+            {
+                "person": "62 y/o waitress"
+            },
+            {
+                "person": "77 y/o cancer patient"
+            },
+            {
+                "person": "40 y/o husband"
+            },
+            {
+                "person": "22 y/o college student"
+            },
+            {
+                "person": "60 y/o mechanic"
+            },
+            {
+                "person": "14 y/o girl"
+            },
+            {
+                "person": "15 y/o boy"
+            },
+            {
+                "person": "18 y/o girl"
+            },
+            {
+                "person": "57 y/o doctor"
+            },
+            {
+                "person": "27 y/o mother"
+            },
+            {
+                "person": "38 y/o rapper"
+            },
+            {
+                "person": "72 y/o widow"
+            },
+            {
+                "person": "58 y/o widower"
+            },
+            {
+                "person": "48 y/o divorcee"
+            },
+            {
+                "person": "45 y/o attorney"
+            },
+            {
+                "person": "54 y/o actress"
+            }
+        ],
+        "places": [
+            {
+                "place": "Panama City"
+            },
+            {
+                "place": "Johannesburg"
+            },
+            {
+                "place": "Nairobi"
+            },
+            {
+                "place": "Accra"
+            },
+            {
+                "place": "Cairo"
+            },
+            {
+                "place": "Melbourne"
+            },
+            {
+                "place": "Sydney"
+            },
+            {
+                "place": "Tahiti"
+            },
+            {
+                "place": "Montreal"
+            },
+            {
+                "place": "New Jersey"
+            },
+            {
+                "place": "Florida"
+            },
+            {
+                "place": "Disneyland"
+            },
+            {
+                "place": "Dublin"
+            },
+            {
+                "place": "Seoul"
+            },
+            {
+                "place": "New Delhi"
+            },
+            {
+                "place": "Tokyo"
+            },
+            {
+                "place": "Hiroshima"
+            },
+            {
+                "place": "Stanford U."
+            },
+            {
+                "place": "Beijing"
+            },
+            {
+                "place": "Rome"
+            },
+            {
+                "place": "Moscow"
+            },
+            {
+                "place": "Singapore"
+            },
+            {
+                "place": "Manila"
+            },
+            {
+                "place": "Maui"
+            },
+            {
+                "place": "Alaska"
+            },
+            {
+                "place": "Toronto"
+            },
+            {
+                "place": "Baghdad"
+            },
+            {
+                "place": "Jerusalem"
+            },
+            {
+                "place": "Lima"
+            },
+            {
+                "place": "Buenos Aires"
+            },
+            {
+                "place": "Iowa"
+            },
+            {
+                "place": "New York"
+            },
+            {
+                "place": "Washington"
+            },
+            {
+                "place": "Washington"
+            },
+            {
+                "place": "Utah"
+            },
+            {
+                "place": "Utah"
+            },
+            {
+                "place": "Idaho"
+            },
+            {
+                "place": "Brasilia"
+            },
+            {
+                "place": "São Paulo"
+            },
+            {
+                "place": "Mexico City"
+            },
+            {
+                "place": "Paris"
+            },
+            {
+                "place": "London"
+            },
+            {
+                "place": "Alabama"
+            },
+            {
+                "place": "Texas"
+            },
+            {
+                "place": "Illinois"
+            }
+            ],
+        "concerns": [
+            {
+                "concern": "Misses deceased family member"
+            },
+            {
+                "concern": "Was dumped by a Mormon"
+            },
+            {
+                "concern": "Doesn't believe in modern prophets"
+            },
+            {
+                "concern": "Missionaries should mind their own business"
+            },
+            {
+                "concern": "Mormons don't have priesthood authority"
+            },
+            {
+                "concern": "Mormons are so judgmental"
+            },
+            {
+                "concern": "What's up with Joseph Smith's wives?"
+            },
+            {
+                "concern": "Upset that Adam and Eve partook of the forbidden fruit"
+            },
+            {
+                "concern": "Secret temple stuff"
+            },
+            {
+                "concern": "Loves marijuana"
+            },
+            {
+                "concern": "Believes in cohabitating before marriage"
+            },
+            {
+                "concern": "Church meetings are too long"
+            },
+            {
+                "concern": "Book of Mormon is boring"
+            },
+            {
+                "concern": "Joseph Smith looked at rocks"
+            },
+            {
+                "concern": "Pornography is harmless"
+            },
+            {
+                "concern": "Doesn't need a prophet's counsel"
+            },
+            {
+                "concern": "Dysfunctional family"
+            },
+            {
+                "concern": "An alcoholic"
+            },
+            {
+                "concern": "God won't forgive them"
+            },
+            {
+                "concern": "God isn't merciful"
+            },
+            {
+                "concern": "Was already baptized by their Pastor"
+            },
+            {
+                "concern": "Sees no need for scripture"
+            },
+            {
+                "concern": "Doesn't have time for religion"
+            },
+            {
+                "concern": "Thinks Mormons are weird"
+            },
+            {
+                "concern": "Is bothered by polygamy in the Church"
+            },
+            {
+                "concern": "Tithing"
+            },
+            {
+                "concern": "Doesn't feel a need to marry their partner"
+            },
+            {
+                "concern": "Is scared to confess their sins"
+            },
+            {
+                "concern": "God doesn't answer prayers"
+            },
+            {
+                "concern": "First Vision didn't happen"
+            },
+            {
+                "concern": "Was once beat up by a Mormon"
+            },
+            {
+                "concern": "Why only one true church?"
+            },
+            {
+                "concern": "Book of Mormon was made up by Joseph Smith"
+            },
+            {
+                "concern": "Believes in the Trinity"
+            },
+            {
+                "concern": "Coffee is my wake-up call"
+            },
+            {
+                "concern": "Believes alcohol is beneficial"
+            },
+            {
+                "concern": "Is gay"
+            },
+            {
+                "concern": "Believes in gay marriage"
+            },
+            {
+                "concern": "Believes that Mormons hate gays"
+            },
+            {
+                "concern": "Works on Sundays"
+            },
+            {
+                "concern": "Doesn't feel comfortable in large groups"
+            },
+            {
+                "concern": "No life after death"
+            },
+            {
+                "concern": "Blacks and the priesthood"
+            },
+            {
+                "concern": "Women should have the priesthood"
+            },
+            {
+                "concern": "Dysfunctional family"
+            }
+        ]
+    }
+}

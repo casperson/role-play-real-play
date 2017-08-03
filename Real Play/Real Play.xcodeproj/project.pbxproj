@@ -16,6 +16,9 @@
 		F4EE48DB1F21BDD500E50BA0 /* Real_PlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48DA1F21BDD500E50BA0 /* Real_PlayUITests.swift */; };
 		F4EE48EB1F21C01D00E50BA0 /* GameplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48EA1F21C01D00E50BA0 /* GameplayViewController.swift */; };
 		F4EE48ED1F21C05100E50BA0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48EC1F21C05100E50BA0 /* StartViewController.swift */; };
+		F4EE48F01F2A373100E50BA0 /* dataSource.json in Resources */ = {isa = PBXBuildFile; fileRef = F4EE48EF1F2A373100E50BA0 /* dataSource.json */; };
+		F4EE48F31F2A3AEB00E50BA0 /* GameplayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48F21F2A3AEB00E50BA0 /* GameplayDataSource.swift */; };
+		F4EE48F51F2A3B3200E50BA0 /* Scenarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE48F41F2A3B3200E50BA0 /* Scenarios.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		F4EE48DC1F21BDD500E50BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4EE48EA1F21C01D00E50BA0 /* GameplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayViewController.swift; sourceTree = "<group>"; };
 		F4EE48EC1F21C05100E50BA0 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		F4EE48EF1F2A373100E50BA0 /* dataSource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataSource.json; sourceTree = "<group>"; };
+		F4EE48F21F2A3AEB00E50BA0 /* GameplayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayDataSource.swift; sourceTree = "<group>"; };
+		F4EE48F41F2A3B3200E50BA0 /* Scenarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenarios.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +107,14 @@
 		F4EE48B61F21BDD500E50BA0 /* Real Play */ = {
 			isa = PBXGroup;
 			children = (
+				F4EE48F11F2A3AC400E50BA0 /* Gameplay */,
+				F4EE48EE1F22629400E50BA0 /* Resources */,
 				F4EE48B71F21BDD500E50BA0 /* AppDelegate.swift */,
 				F4EE48BB1F21BDD500E50BA0 /* Main.storyboard */,
 				F4EE48C11F21BDD500E50BA0 /* Assets.xcassets */,
 				F4EE48C31F21BDD500E50BA0 /* LaunchScreen.storyboard */,
 				F4EE48C61F21BDD500E50BA0 /* Info.plist */,
 				F4EE48BE1F21BDD500E50BA0 /* Real_Play.xcdatamodeld */,
-				F4EE48EA1F21C01D00E50BA0 /* GameplayViewController.swift */,
 				F4EE48EC1F21C05100E50BA0 /* StartViewController.swift */,
 			);
 			path = "Real Play";
@@ -129,6 +136,24 @@
 				F4EE48DC1F21BDD500E50BA0 /* Info.plist */,
 			);
 			path = "Real PlayUITests";
+			sourceTree = "<group>";
+		};
+		F4EE48EE1F22629400E50BA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4EE48F11F2A3AC400E50BA0 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE48EF1F2A373100E50BA0 /* dataSource.json */,
+				F4EE48EA1F21C01D00E50BA0 /* GameplayViewController.swift */,
+				F4EE48F21F2A3AEB00E50BA0 /* GameplayDataSource.swift */,
+				F4EE48F41F2A3B3200E50BA0 /* Scenarios.swift */,
+			);
+			name = Gameplay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +268,7 @@
 			files = (
 				F4EE48C51F21BDD500E50BA0 /* LaunchScreen.storyboard in Resources */,
 				F4EE48C21F21BDD500E50BA0 /* Assets.xcassets in Resources */,
+				F4EE48F01F2A373100E50BA0 /* dataSource.json in Resources */,
 				F4EE48BD1F21BDD500E50BA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EE48F31F2A3AEB00E50BA0 /* GameplayDataSource.swift in Sources */,
+				F4EE48F51F2A3B3200E50BA0 /* Scenarios.swift in Sources */,
 				F4EE48C01F21BDD500E50BA0 /* Real_Play.xcdatamodeld in Sources */,
 				F4EE48ED1F21C05100E50BA0 /* StartViewController.swift in Sources */,
 				F4EE48EB1F21C01D00E50BA0 /* GameplayViewController.swift in Sources */,
@@ -524,6 +552,7 @@
 				F4EE48E11F21BDD500E50BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4EE48E21F21BDD500E50BA0 /* Build configuration list for PBXNativeTarget "Real PlayTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +561,7 @@
 				F4EE48E41F21BDD500E50BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4EE48E51F21BDD500E50BA0 /* Build configuration list for PBXNativeTarget "Real PlayUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +570,7 @@
 				F4EE48E71F21BDD500E50BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
