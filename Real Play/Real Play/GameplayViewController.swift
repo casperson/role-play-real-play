@@ -29,11 +29,19 @@ class GameplayViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        generateScenarioButton.layer.borderColor = UIColor.white.cgColor
+        generateScenarioButton.layer.cornerRadius = 4
+        generateScenarioButton.layer.borderWidth = 2
+        
         let scenarioDataSource = GameplayDataSource()
         scenarios = scenarioDataSource.getAvailableScenarios()
         people = (scenarios?.people)!
         places = (scenarios?.places)!
         concerns = (scenarios?.concerns)!
+    }
+    
+    @IBAction func goBackHome(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func generateScenario(_ sender: Any) {
